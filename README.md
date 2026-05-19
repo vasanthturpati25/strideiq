@@ -1,4 +1,5 @@
 # ⚡ StrideIQ — AI-Powered Running Form Analyzer
+# PowerFul Project
 
 > Upload your running video → Get instant biomechanical feedback, injury risk score, and personalised coaching tips.
 
