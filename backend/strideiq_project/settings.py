@@ -113,10 +113,11 @@ WSGI_APPLICATION = "strideiq_project.wsgi.application"
 # Database
 # ─────────────────────────────────────────────────────────────
 
+# settings.py
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': '/app/db/strideiq.db',   # ← inside the folder
     }
 }
 
