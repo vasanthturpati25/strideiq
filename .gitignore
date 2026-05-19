@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+.env
+
+# Django
+*.db
+staticfiles/
+media/
+
+# ML models
+backend/models_ml/rf_model.pkl
+backend/models_ml/label_encoder.pkl
+
+# Node
+node_modules/
+frontend/build/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
