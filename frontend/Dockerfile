@@ -4,6 +4,7 @@ FROM node:20-alpine AS build
 WORKDIR /app
 COPY package.json ./
 RUN npm install --legacy-peer-deps
+RUN npm install ajv@^8 --legacy-peer-deps   # ← add this line
 
 COPY . .
 ARG REACT_APP_API_URL=/api
